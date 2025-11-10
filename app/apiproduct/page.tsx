@@ -38,7 +38,7 @@ export default function ProductTable() {
     <div className="p-6 max-w-7xl mx-auto">
       <h1 className="text-3xl font-bold text-center mb-8">Products Page</h1>
 
-      {/* ---------------- TABLE ---------------- */}
+
       <div className="overflow-x-auto mb-12 border border-gray-200 rounded-lg shadow-sm">
         <table className="min-w-full table-auto">
           <thead className="bg-gray-100">
@@ -76,7 +76,6 @@ export default function ProductTable() {
         </table>
       </div>
 
-      {/* ---------------- CARDS ---------------- */}
       <h2 className="text-2xl font-semibold mb-4 text-center">Product Cards</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {products.map((p) => (
