@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import ProductForm from "../productform";
 
 export default function ProductTable() {
   type Product = {
@@ -38,6 +39,7 @@ export default function ProductTable() {
     <div className="p-6 max-w-7xl mx-auto">
       <h1 className="text-3xl font-bold text-center mb-8">Products Page</h1>
 
+      <div className="mb-16"> <ProductForm /> </div>
 
       <div className="overflow-x-auto mb-12 border border-gray-200 rounded-lg shadow-sm">
         <table className="min-w-full table-auto">
